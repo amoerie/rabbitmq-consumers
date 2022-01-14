@@ -1,6 +1,3 @@
 ﻿namespace RabbitConsumers;
 
-public class TestQueueItem
-{
-    
-}
+public record TestQueueItem(string Name);
