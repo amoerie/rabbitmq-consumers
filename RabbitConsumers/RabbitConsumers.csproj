@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EasyNetQ\Source\EasyNetQ.DI.Microsoft\EasyNetQ.DI.Microsoft.csproj" />
+    <ProjectReference Include="..\EasyNetQ\Source\EasyNetQ.Logging.Microsoft\EasyNetQ.Logging.Microsoft.csproj" />
     <ProjectReference Include="..\EasyNetQ\Source\EasyNetQ.Serialization.NewtonsoftJson\EasyNetQ.Serialization.NewtonsoftJson.csproj" />
     <ProjectReference Include="..\EasyNetQ\Source\EasyNetQ\EasyNetQ.csproj" />
   </ItemGroup>

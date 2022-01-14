@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetQ", "EasyNetQ\Source
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Serialization.NewtonsoftJson", "EasyNetQ\Source\EasyNetQ.Serialization.NewtonsoftJson\EasyNetQ.Serialization.NewtonsoftJson.csproj", "{C316856A-88B9-4142-B9B1-B3BA114B8F5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.DI.Microsoft", "EasyNetQ\Source\EasyNetQ.DI.Microsoft\EasyNetQ.DI.Microsoft.csproj", "{FE7BA538-2957-464E-ABAD-0E462EB1413C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Logging.Microsoft", "EasyNetQ\Source\EasyNetQ.Logging.Microsoft\EasyNetQ.Logging.Microsoft.csproj", "{A588982C-36F1-40B4-8939-97960F9CE228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C316856A-88B9-4142-B9B1-B3BA114B8F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C316856A-88B9-4142-B9B1-B3BA114B8F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C316856A-88B9-4142-B9B1-B3BA114B8F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7BA538-2957-464E-ABAD-0E462EB1413C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7BA538-2957-464E-ABAD-0E462EB1413C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7BA538-2957-464E-ABAD-0E462EB1413C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7BA538-2957-464E-ABAD-0E462EB1413C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A588982C-36F1-40B4-8939-97960F9CE228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A588982C-36F1-40B4-8939-97960F9CE228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A588982C-36F1-40B4-8939-97960F9CE228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A588982C-36F1-40B4-8939-97960F9CE228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
